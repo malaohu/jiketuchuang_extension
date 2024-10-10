@@ -1,0 +1,42 @@
+﻿{
+	"name": "即刻图床",
+	"description": "🐴 完全利用各个互联网大厂的外链图片来做的免费图床，速度快！",
+	"options_page": "options.html",
+	"icons": {
+		"128": "img/128.png",
+		"48": "img/48.png",
+		"16": "img/16.png"
+	},
+	"background": {
+		"page": "background.html"
+	},
+	"browser_action": {
+		"default_icon": "img/48.png",
+		"default_title": "即刻图床"
+	},
+	"version": "1.0.36",
+	"manifest_version": 2,
+	"homepage_url": "https://jiketuchuang.com",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://baijiahao.baidu.com/?wangyi=1"
+			],
+			"js": [
+				"js/get_baidu_token.js"
+			]
+		}
+	],
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://upload.58cdn.com.cn/*",
+		"*://club.jd.com/*",
+		"*://picupload.weibo.com/*",
+		"*://queqiao.suning.com/*",
+		"*://qiye.mi.com/*",
+		"*://baijiahao.baidu.com/*",
+		"*://filebroker.aliexpress.com/*",
+		"*://upload.cnblogs.com/*"
+	]
+}

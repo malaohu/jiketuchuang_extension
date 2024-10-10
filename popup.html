@@ -1,0 +1,117 @@
+﻿<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>即刻图床 - 大厂全球CDN加速,支持外链,不限流量,支持粘贴上传、拖放上传 jiketuchuang.com。</title>
+    <link rel="shortcut icon" href="img/128.png" type="image/x-icon">
+    <meta name="description" content="即刻图床，JIKE免费图床，即刻免费图床，阿里巴巴全球CDN加速，京东全球CDN加速，支持外链图片，支持HTTPS，支持图片缩放，不限流量，支持粘贴上传、拖放上传，Markdown链接的图床" />
+    <meta name="keywords" content="JIKE免费图床 即刻图床 全球CDN加速 阿里云CDN 阿里巴巴CDN 京东CDN 百度CDN 小米CDN 头条CDN 免费图床 图床网站 免费外链 HTTPS外链图床 不限流量 永久图床 不限空间 图片空间 jiketuchuang.com" />
+    <meta name="author" content="TUA<tua@live.cn>, malaohu, RUYO.net" />
+    <link href="http://lib.baomitu.com/pure/0.6.2/pure-min.css" rel="stylesheet" />
+    <link href="http://lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="http://lib.baomitu.com/dropzone/5.4.0/min/basic.min.css" rel="stylesheet">
+    <link href="http://lib.baomitu.com/dropzone/5.4.0/min/dropzone.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        .dropzone {
+            min-height: 150px;
+            border: 4px dashed rgba(0, 0, 0, 0.3);
+            background: white;
+            padding: 20px 20px;
+            margin-top: 20px;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+        <div class="header">
+            <h1>即刻图床</h1>
+            <h2>支持阿里/京东/百度/腾讯/58同城/美团等全球CDN加速，支持HTTPS！绝对比其他图床强！</h2>
+        </div>
+        <div class="content">
+            <div class="pure-g">
+                <div class="dropzone pure-u-1">
+                </div>
+            </div>
+            <br>
+            <fieldset>
+                <legend>链接地址，右键复制</legend>
+                <div class="pure-form pure-g">
+                    <div class="pure-u-1-5">
+                        <label for="option-one" class="pure-radio">
+                            <input id="option-one" type="radio" name="optionsRadios" value="1" checked>URL
+                        </label>
+                    </div>
+                    <div class="pure-u-1-5">
+                        <label for="option-two" class="pure-radio">
+                            <input id="option-two" type="radio" name="optionsRadios" value="2">HTML
+                        </label>
+                    </div>
+                    <div class="pure-u-1-5">
+                        <label for="option-three" class="pure-radio">
+                            <input id="option-three" type="radio" name="optionsRadios" value="3">BBCode
+                        </label>
+                    </div>
+                    <div class="pure-u-1-5">
+                        <label for="option-five" class="pure-radio">
+                            <input id="option-five" type="radio" name="optionsRadios" value="4">Markdown
+                        </label>
+                    </div>
+                    <div class="pure-u-1-5">
+                        <label for="option-six" class="pure-radio">
+                            <input id="option-five" type="radio" name="optionsRadios" value="5">MD with link
+                        </label>
+                    </div>
+                    <div class="pure-u-1">
+                        <textarea id="int_urls" class="pure-input-1-1" placeholder="这里显示图片链接" style="width:100%; height: 150px; font-size: 10px;white-space:nowrap; overflow-x:scroll; overflow-y:hidden;"
+                            wrap="off"></textarea>
+                    </div>
+                </div>
+            </fieldset>
+
+            
+         
+            
+
+
+            <h3>上传必读</h3>
+            <p>1> 禁止上传色情/反动/暴力等违法违规图片！造成的一切恶果由图片上传者承担！本扩展仅限测试使用！</p>
+            <p>2> 所有图床都支持PNG/JPG，每个图床支持更多格式以及大小<a href='https://jike.info/topic/11457/' target="_blank" ><b>【请点击这里】</b></a>前往查看。</p>
+            <p>3> 目前本图床使用的是阿里/京东/腾讯/小米/百度/58同城/新浪等大厂的全球CDN加速，可<a href='/options.html' style="color:red">【点击这里】</a>切换。</p>
+            <p>4> 如需查看历史上传图片<a href='/show.html' style="color:red">【点击这里】</a>查看。</p>
+            <p>5> 提醒：扩展已经支持COOKIE接口，名称备注(需登陆)。</p>
+            <p>6> 说明：扩展不会上传用户的COOKIE，可以查看扩展需要的权限仅限指定的域名。</p>
+            <p>7> 目前本源码直接调用大厂的上传接口，无中转，不收集/记录你的上传图片。</b></p>
+            <p>8> 本源码暂不完全开源。</p>
+            <p>9> 各种问题反馈：请移步到 <a href="https://jike.info/category/21/" target="_blank" >JIKE社区</a> 发帖。</p>
+        </div>
+
+
+        <div class="footer">
+            <div class="legal pure-g">
+                <div class="pure-u-1 u-sm-1-2">
+                    <p class="legal-license">
+                        This site is built with &lt;3 using Pure v1.0<br>
+                        官网：<a href="https://jiketuchuang.com">jiketuchuang.com</a>
+                    </p>
+                </div>
+
+                <div class="pure-u-1 u-sm-1-2">
+                    <p class="legal-copyright">
+                        © 2018-2024&nbsp;
+                        <a href="https://51.RUYO.net">RUYO.net</a>! Inc. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/lib/require.js"></script>
+    <script src="js/popup.js"></script>
+
+</body>
+
+</html>
